@@ -1,0 +1,10 @@
+{
+    "python.linting.banditEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleArgs": ["--ignore=E303"],
+    "python.linting.enabled": true,
+    "python.dataScience.jupyterCommandLineArguments": [
+    
+    ],
+    "python.pythonPath": ".venv/bin/python"
+}
