@@ -37,7 +37,6 @@ class Handle(Stationery):
     """
     Класс маркер
     """
-
     def draw(self):
         print("Запуск отрисовки маркером.")
 
