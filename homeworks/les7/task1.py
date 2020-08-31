@@ -60,7 +60,6 @@ class Matrix:
         return str_out[:-1]
 
     def __add__(self, other:"Matrix")->"Matrix":
-        self.__max_len_digit_recalc = True
         return Matrix(list([list(map(sum, zip(self.__elems[idx],other.__elems[idx]))) for idx,_ in enumerate(self.__elems)]))
 
 m1 = Matrix([[32211,22],[37,143],[51,86]])
